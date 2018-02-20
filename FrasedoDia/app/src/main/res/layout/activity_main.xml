@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context="frasesdodia.studio.com.frasedodia.MainActivity">
+
+    <Button
+        android:id="@+id/botaoNovaFraseId"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_frases"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/textoNovaFraseId"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_nova_frase"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/botaoNovaFraseId"
+        app:layout_constraintRight_toRightOf="@+id/botaoNovaFraseId"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1" />
+</android.support.constraint.ConstraintLayout>
